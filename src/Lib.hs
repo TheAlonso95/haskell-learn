@@ -33,7 +33,7 @@ removeOddNumbers t = [ [ x | x <- l, even x ] | l <- t ]
 -- Tuples are lists of a defined length and it's represented like the following 
 -- [(1,2), (3,4), (5,6)] |
 
--- c is the hypotenuse and a & b are the Catheters 
--- this function generates a tuple of 3 that is a right triangles where it's perimeter  |
+-- c is the hypotenuse and a & b are the Catheters.
+-- This function generates a tuple of 3 that is a right triangle where it's perimeter is 24  |
 triangles' :: [(Integer, Integer, Integer)]
 triangles' = [ (a, b, c) | c <- [1..10], b <- [1..c], a <- [1..b], a ^ 2 + b ^2 == c ^ 2, a+b+c == 24]
