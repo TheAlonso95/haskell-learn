@@ -1,10 +1,10 @@
 name:                haskell-learn
 version:             0.1.0.0
-github:              "Github username here/haskell-learn"
+github:              "TheAlonso95/haskell-learn"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "Author email here"
-copyright:           "2019 Author name here"
+author:              "Alonso"
+maintainer:          "Alonso"
+copyright:           "2019 Alonso"
 
 extra-source-files:
 - README.md
