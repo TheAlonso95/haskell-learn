@@ -23,7 +23,7 @@ doubleSmallNumber x =
     
 -- elem is a function that returns true if the element exist on the list
 -- in this case it checks if each Char of a char list is in UpperCase | 
-removeNonUppercase :: [Char] -> [Char]
+removeNonUppercase :: String -> String
 removeNonUppercase st = [c | c <- st, c `elem` ['A' .. 'Z']]
 
 
